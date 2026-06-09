@@ -1,9 +1,13 @@
-import Calc from "./Calc"
+import Calc from "./Calc";
 
 function App() {
-  return <Calc></Calc>
+  return (
+    <div className="flex flex-1 w-full h-full">
+      <Calc></Calc>
+    </div>
+  );
+
+
 }
 
-
-
-export default App
+export default App;
